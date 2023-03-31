@@ -1,0 +1,267 @@
+CRITICAL - 2022-01-13 12:58:21 --> Undefined variable $NR
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Projekte.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Projekte', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(35): view('pages/Projekte', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 13:21:47 --> Too few arguments to function App\Models\ProjektModel::getEntry(), 0 passed in C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php on line 31 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(31): App\Models\ProjektModel->getEntry()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 13:22:23 --> Too few arguments to function App\Models\ProjektModel::getEntry(), 0 passed in C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php on line 31 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(31): App\Models\ProjektModel->getEntry()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 13:23:56 --> Undefined array key "bezeichnung"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(31): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 13:24:06 --> Undefined array key "bezeichnung"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(31): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 13:26:30 --> Undefined array key "bezeichnung"
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Projekte.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Projekte', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(39): view('pages/Projekte', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 13:28:53 --> Undefined array key "bezeichnung"
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Projekte.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Projekte', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(39): view('pages/Projekte', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 13:30:16 --> Undefined array key "bezeichnung"
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Projekte.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Projekte', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(39): view('pages/Projekte', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 13:49:43 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(32): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 13:50:50 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(31): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 13:51:10 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(31): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 13:52:22 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(31): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:01:08 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(34): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:01:31 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(34): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:02:30 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(26): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:02:36 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(26): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:03:02 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(26): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:14:48 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(32): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:18:27 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(38): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:19:06 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(38): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:19:48 --> syntax error, unexpected token "echo", expecting "function" or "const"
+#0 C:\xampp\htdocs\CodeIgniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('projekte/index')
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('projekte/index')
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 14:20:04 --> syntax error, unexpected token "echo", expecting "function" or "const"
+#0 C:\xampp\htdocs\CodeIgniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Projekte')
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Projekte')
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 14:20:59 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(39): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:21:47 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(39): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:22:19 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(39): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:22:28 --> Undefined array key "option"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(39): App\Models\ProjektModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 14:23:06 --> syntax error, unexpected token "echo", expecting "function" or "const"
+#0 C:\xampp\htdocs\CodeIgniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('projekte/index')
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('projekte/index')
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 14:31:18 --> Undefined constant "a"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Projekte', Array, true)
+#3 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(49): view('pages/Projekte', Array)
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-13 14:31:59 --> Unknown column '$bezeichnung' in 'where clause'
+CRITICAL - 2022-01-13 14:31:59 --> Unknown column '$bezeichnung' in 'where clause'
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(36): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(35): App\Models\ProjektModel->changeEntry()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-13 14:32:47 --> Unknown column '$bezeichnung' in 'where clause'
+CRITICAL - 2022-01-13 14:32:47 --> Unknown column '$bezeichnung' in 'where clause'
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(36): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(35): App\Models\ProjektModel->changeEntry()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-13 14:42:20 --> Undefined array key "bezeichnung"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\ProjektModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(28): App\Models\ProjektModel->delProjekt()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}

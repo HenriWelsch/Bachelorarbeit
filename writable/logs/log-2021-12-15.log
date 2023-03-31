@@ -1,0 +1,213 @@
+CRITICAL - 2021-12-15 16:05:59 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-15 16:06:19 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-15 16:18:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-15 09:55:02 --> Invalid file: pages/home/test.php
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/home/test...')
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/home/test', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(6): view('pages/home/test')
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->index()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 09:57:24 --> syntax error, unexpected end of file, expecting "," or ";"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/test', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(6): view('pages/test')
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->index()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 09:57:31 --> syntax error, unexpected end of file, expecting "," or ";"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/test', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(6): view('pages/test')
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->index()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 09:58:55 --> Invalid file: pages/home/test.php
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/home/test...')
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/home/test', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(6): view('pages/home/test')
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->index()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 10:00:12 --> Invalid file: pages/home/test.php
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/home/test...')
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/home/test', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(6): view('pages/home/test')
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->index()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 12:58:08 --> Undefined property: App\Controllers\First::$firstmodel
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 13:01:15 --> Invalid file: pages/table_dyn.php
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/table_dyn...')
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(27): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 13:09:02 --> Invalid file: pages/table_dyn.php
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/table_dyn...')
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(27): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 13:14:28 --> Invalid file: pages/table_dyn.php
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/table_dyn...')
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(27): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 13:16:10 --> Invalid file: pages/table_dyn.php
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/table_dyn...')
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(27): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 13:28:55 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\CodeIgniter\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\CodeIgniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Crud')
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Crud')
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 13:30:22 --> Class "BaseController" not found
+#0 C:\xampp\htdocs\CodeIgniter\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\CodeIgniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Crud')
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Crud')
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 13:44:11 --> Invalid file: pages/table_dyn.php
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/table_dyn...')
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(27): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 13:54:50 --> Undefined array key "mitglied"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 13:56:03 --> Undefined variable $mitglied
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 13:56:15 --> Undefined variable $mitglied
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 13:56:51 --> Undefined variable $mitglied
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 13:57:18 --> Undefined variable $mitglied
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 13:57:32 --> Undefined variable $mitglied
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 13:57:50 --> Undefined variable $mitglied
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 13:58:15 --> Unclosed '{' on line 9
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

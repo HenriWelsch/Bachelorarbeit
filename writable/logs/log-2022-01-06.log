@@ -1,0 +1,30 @@
+CRITICAL - 2022-01-06 09:43:34 --> syntax error, unexpected identifier "edit", expecting "," or ";"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Personen', Array, true)
+#3 C:\xampp\htdocs\CodeIgniter\app\Controllers\Personen.php(15): view('pages/Personen', Array)
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Personen->index()
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personen))
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 09:44:05 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Personen', Array, true)
+#3 C:\xampp\htdocs\CodeIgniter\app\Controllers\Personen.php(15): view('pages/Personen', Array)
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Personen->index()
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personen))
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 10:02:37 --> syntax error, unexpected identifier "width", expecting "," or ";"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Personen', Array, true)
+#3 C:\xampp\htdocs\CodeIgniter\app\Controllers\Personen.php(15): view('pages/Personen', Array)
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Personen->index()
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personen))
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}

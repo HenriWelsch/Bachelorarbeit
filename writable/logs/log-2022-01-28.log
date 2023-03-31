@@ -1,0 +1,178 @@
+CRITICAL - 2022-01-28 05:46:47 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 05:47:24 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 05:47:39 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 05:48:09 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 05:51:23 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 06:53:05 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 06:53:52 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 06:54:09 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 06:56:20 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 06:57:55 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 06:57:57 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 06:58:08 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 06:58:46 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 06:59:12 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:11:53 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:11:56 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:11:58 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:12:14 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:12:41 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:12:45 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:13:04 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:13:24 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:14:12 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:17:41 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:19:18 --> Undefined array key "id"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\test.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 07:19:38 --> Undefined array key "id"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\test.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 07:19:40 --> Undefined array key "id"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\test.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 07:20:07 --> Too few arguments to function App\Controllers\test::getTest(), 0 passed in C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 07:27:52 --> Undefined array key "id"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\test.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->getTest()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}

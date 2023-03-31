@@ -1,0 +1,22 @@
+CRITICAL - 2022-01-27 08:15:36 --> Undefined variable $database
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\test.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/test', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\test.php(15): view('pages/test')
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-27 08:17:36 --> Undefined variable $database
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\test.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/test', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\test.php(15): view('pages/test')
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}

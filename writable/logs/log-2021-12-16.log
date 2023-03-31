@@ -1,0 +1,215 @@
+CRITICAL - 2021-12-16 04:28:14 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 04:28:54 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 04:30:52 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 04:31:08 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 04:32:49 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 04:33:19 --> syntax error, unexpected token "?"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 04:33:32 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 04:52:07 --> include(sidebar_fun.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(sidebar...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Login.php(27): include()
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Login', Array, true)
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\login.php(14): view('pages/Login', Array)
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\login->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-16 05:17:46 --> Undefined variable $data
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Login', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(9): view('pages/Login', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-16 05:21:52 --> Undefined variable $data
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Login', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(9): view('pages/Login', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-16 05:24:17 --> Undefined variable $mitglied
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-16 05:24:40 --> Undefined variable $data
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-16 05:24:59 --> Undefined array key "titel"
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-16 05:26:12 --> syntax error, unexpected token "=>"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 05:26:20 --> Undefined variable $mitglied
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-16 05:26:28 --> Undefined variable $data
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-16 05:27:06 --> Undefined variable $data
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-16 05:27:20 --> Undefined array key "titel"
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-16 05:27:29 --> Undefined array key "MitgliedID"
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\table_dyn.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/table_dyn', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\First.php(29): view('pages/table_dyn', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\First->table_dyn()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\First))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-16 05:33:04 --> Unclosed '{' on line 4
+#0 C:\xampp\htdocs\CodeIgniter\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('test/article')
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('test/article')
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-16 05:33:18 --> Undefined property: App\Controllers\test::$module_name
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\test.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->article()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-16 05:33:35 --> Undefined property: App\Controllers\test::$load
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\test.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\test->article()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\test))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,86 @@
+CRITICAL - 2022-01-05 11:49:31 --> Undefined variable $database
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\generate_table.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Personen.php(1): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Personen', Array, true)
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Personen.php(22): view('pages/Personen', Array)
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Personen->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personen))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-05 11:51:03 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Login', Array, true)
+#3 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(9): view('pages/Login', Array)
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-05 11:53:30 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-05 11:55:56 --> Undefined array key "password"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 11:58:36 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\Personen.php(14): view('templates/heade...', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Personen->index()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personen))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-05 11:59:17 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\Personen.php(14): view('templates/heade...', Array)
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Personen->index()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personen))
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-05 12:04:38 --> require(templates/sidebar_fun.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\templates\header.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(templat...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\CodeIgniter\app\Views\templates\header.php(30): require()
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Personen.php(14): view('templates/heade...', Array)
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Personen->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personen))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-05 12:04:49 --> require(/templates/sidebar_fun.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\templates\header.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(/templa...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\CodeIgniter\app\Views\templates\header.php(30): require()
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Personen.php(14): view('templates/heade...', Array)
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Personen->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personen))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-05 12:04:59 --> require(\templates\sidebar_fun.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\templates\header.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(\\templa...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\CodeIgniter\app\Views\templates\header.php(30): require()
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Personen.php(14): view('templates/heade...', Array)
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Personen->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personen))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}

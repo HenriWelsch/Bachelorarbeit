@@ -1,0 +1,582 @@
+CRITICAL - 2022-01-19 09:15:57 --> Call to undefined function App\Models\group_concave()
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 09:16:23 --> Call to undefined function App\Models\group_concat()
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 09:17:16 --> Call to undefined function App\Models\group_concat()
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-19 09:17:44 --> Unknown column 'projekt.PrjektID' in 'field list'
+CRITICAL - 2022-01-19 09:17:44 --> Unknown column 'projekt.PrjektID' in 'field list'
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 09:25:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mitglied.Benutzername"</li>")
+FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`....' at line 1
+CRITICAL - 2022-01-19 09:25:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mitglied.Benutzername"</li>")
+FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`....' at line 1
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 09:26:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+CRITICAL - 2022-01-19 09:26:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 09:27:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+CRITICAL - 2022-01-19 09:27:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 09:27:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+CRITICAL - 2022-01-19 09:27:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 09:27:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+CRITICAL - 2022-01-19 09:27:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 09:27:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+CRITICAL - 2022-01-19 09:27:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 09:28:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+CRITICAL - 2022-01-19 09:28:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `projekt`.`Proje...' at line 2
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 09:28:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<mitglied.Benutzername), "</li>"
+FROM `projekt`
+JOIN `zugeteilt` ON `zugeteil...' at line 1
+CRITICAL - 2022-01-19 09:28:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<mitglied.Benutzername), "</li>"
+FROM `projekt`
+JOIN `zugeteilt` ON `zugeteil...' at line 1
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 09:29:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<mitglied.Benutzername), "</li>")
+FROM `projekt`
+JOIN `zugeteilt` ON `zugetei...' at line 1
+CRITICAL - 2022-01-19 09:29:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<mitglied.Benutzername), "</li>")
+FROM `projekt`
+JOIN `zugeteilt` ON `zugetei...' at line 1
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 09:29:37 --> Unknown column '<mitglied.Benutzername' in 'field list'
+CRITICAL - 2022-01-19 09:29:37 --> Unknown column '<mitglied.Benutzername' in 'field list'
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 09:30:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'seperator "")
+FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `p...' at line 1
+CRITICAL - 2022-01-19 09:30:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'seperator "")
+FROM `projekt`
+JOIN `zugeteilt` ON `zugeteilt`.`ProjektID` = `p...' at line 1
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(21): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-19 10:12:27 --> Array to string conversion
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(26): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 10:13:11 --> Array to string conversion
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(26): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 10:13:43 --> Undefined array key 0
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(26): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 10:13:56 --> Undefined array key "Username"
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(26): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 10:30:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Projekte.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Projekte->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projekte))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 10:32:00 --> Undefined variable $a
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(26): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 10:32:38 --> Undefined variable $a
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(27): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 10:32:50 --> Undefined variable $a
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(26): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 10:32:58 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#3 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(26): view('pages/Aufgaben', Array)
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-19 11:03:33 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-19 11:10:07 --> Undefined array key "titel"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:11:50 --> Undefined array key "titel"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:12:02 --> Undefined array key "titel"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-19 11:29:28 --> Unknown table 'webprojekt.projekt'
+CRITICAL - 2022-01-19 11:29:28 --> Unknown table 'webprojekt.projekt'
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(22): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 11:29:54 --> Unknown table 'webprojekt.projekt'
+CRITICAL - 2022-01-19 11:29:54 --> Unknown table 'webprojekt.projekt'
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `projekt...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projekt...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projekt...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `projekt...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(22): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-19 11:30:35 --> Unknown column 'zugeteilt.AufgabeID' in 'on clause'
+CRITICAL - 2022-01-19 11:30:35 --> Unknown column 'zugeteilt.AufgabeID' in 'on clause'
+#0 C:\xampp\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `aufgabe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `aufgabe...')
+#2 C:\xampp\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `aufgabe...')
+#3 C:\xampp\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `aufgabe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(22): App\Models\AufgabenModel->getMembers()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-19 11:31:55 --> Undefined array key "change"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(30): App\Models\AufgabenModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 12:19:09 --> Undefined array key "Aufgabe"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 12:44:35 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\CodeIgniter\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CodeIgniter\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Aufg...')
+#2 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Aufg...')
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(801): App\Controllers\Aufgaben->__construct()
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 12:56:57 --> Undefined array key "ID"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(31): App\Models\AufgabenModel->getEntry1()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 12:57:17 --> Undefined array key "ID"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(31): App\Models\AufgabenModel->getEntry1()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 12:58:45 --> Undefined array key "ID"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(31): App\Models\AufgabenModel->getEntry1()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 12:58:48 --> Undefined array key "ID"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(31): App\Models\AufgabenModel->getEntry1()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 12:58:49 --> Undefined array key "ID"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(34): App\Models\AufgabenModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 12:58:55 --> Undefined array key "ID"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(31): App\Models\AufgabenModel->getEntry1()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 13:17:55 --> Undefined array key "delete"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(28): App\Models\AufgabenModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 13:18:26 --> Undefined array key "delete"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(28): App\Models\AufgabenModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 13:33:26 --> Undefined array key "delete"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(35): App\Models\AufgabenModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 13:33:42 --> Undefined array key "delete"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(35): App\Models\AufgabenModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 13:33:59 --> Undefined array key "delete"
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\AufgabenModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(35): App\Models\AufgabenModel->getEntry()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#4 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-19 13:41:05 --> Undefined variable $a
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(41): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 13:42:39 --> Undefined variable $a
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(41): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 13:42:57 --> Undefined variable $a
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(41): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 13:45:40 --> Undefined variable $a
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(41): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 13:45:43 --> Undefined variable $a
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(41): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 13:45:45 --> Undefined variable $a
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\pages\Aufgaben.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('pages/Aufgaben', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(41): view('pages/Aufgaben', Array)
+#5 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-19 14:23:07 --> Undefined array key "select2"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 14:23:16 --> Undefined array key "select2"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 14:23:40 --> Undefined array key "select2"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 14:24:09 --> Undefined array key "InputZustaendig"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 14:25:59 --> Undefined property: App\Controllers\Aufgaben::$input
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 14:26:23 --> Undefined array key "InputZustaendig"
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Aufgaben.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Aufgaben->index()
+#2 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aufgaben))
+#3 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
